@@ -1,0 +1,30 @@
+{
+    "name": "fe-mock",
+    "version": "0.0.1-beta13",
+    "description": "fe mock",
+    "main": "./lib",
+    "scripts": {
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/zhoushengmufc/fe-mock"
+    },
+    "keywords": [
+        "femock",
+        "fe-mock",
+        "mock",
+        "webpack"
+    ],
+    "author": "zhousheng",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/zhoushengmufc/fe-mock/issues"
+    },
+    "bin": {
+        "fe-mock" : "./bin/index.js"
+    },
+    "homepage": "https://github.com/zhoushengmufc/fe-mock#readme",
+    "dependencies": {
+        "nodemon": "1.11.0"
+    }
+}
