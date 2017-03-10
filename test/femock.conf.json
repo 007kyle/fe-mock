@@ -1,0 +1,101 @@
+{
+	"port": 9998,
+	"globalPath": "/mock/",
+	"list": [
+	    {
+	    	"des": "test页面",
+	    	"api": "/node/test",
+	    	"type": "get",
+	    	"defaultJson": "contract/contract.json",
+	    	"ifArr": [
+	    	    {
+	    	    	"ifState": "a>0",
+	    	    	"returnJson": "contract/contract-login.json"
+	    	    }
+	    	],
+	    	"useIf": false,
+	    	"httpCode": 200
+	    },
+	    {
+	    	"des": "test页面",
+	    	"api": "/node/project",
+	    	"type": "get",
+	    	"defaultJson": "project.json",
+	    	"useIf": false,
+	    	"httpCode": 404
+	    },
+	    {
+	    	"des": "test页面",
+	    	"api": "/node/interfaces",
+	    	"type": "get",
+	    	"defaultJson": "message.json",
+	    	"useIf": false,
+	    	"httpCode": 404
+	    },
+	    {
+	    	"des": "test页面",
+	    	"api": "/node/project/query",
+	    	"type": "get",
+	    	"defaultJson": "list.json",
+	    	"useIf": false,
+	    	"httpCode": 200,
+			"overtime": -1
+	    },
+	    {
+	    	"des": "test页面",
+	    	"api": "/node/interfaces/info",
+	    	"type": "get",
+	    	"defaultJson": "jsonData.json",
+	    	"useIf": false,
+	    	"httpCode": 200
+	    },
+	    {
+	    	"des": "test页面",
+	    	"api": "/node/interfaces/add",
+	    	"type": "get",
+	    	"defaultJson": "upLoadMsg.json",
+	    	"useIf": false,
+	    	"httpCode": 200
+	    },
+	    {
+	    	"des": "test页面",
+	    	"api": "/node/interfaces/delete",
+	    	"type": "get",
+	    	"defaultJson": "delete.json",
+	    	"useIf": false,
+	    	"httpCode": 200
+	    },
+	    {
+	    	"des": "test页面",
+	    	"api": "/node/relation/updateUrl",
+	    	"type": "get",
+	    	"defaultJson": "jsonRdUrlEdit.json",
+	    	"useIf": false,
+	    	"httpCode": 200
+	    },
+	    {
+	    	"des": "test页面",
+	    	"api": "/node/relation/updateLoginInfo",
+	    	"type": "get",
+	    	"defaultJson": "loginData.json",
+	    	"useIf": false,
+	    	"httpCode": 200
+	    },
+	    {
+	    	"des": "test页面",
+	    	"api": "/node/interfaces/updateJson",
+	    	"type": "get",
+	    	"defaultJson": "postJsonData.json",
+	    	"useIf": false,
+	    	"httpCode": 200
+	    },
+	    {
+	    	"des": "test页面",
+	    	"api": "/node/interfaces/data",
+	    	"type": "get",
+	    	"defaultJson": "contract/contract.json",
+	    	"useIf": false,
+	    	"httpCode": 200
+	    }
+	]
+}

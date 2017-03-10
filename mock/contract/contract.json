@@ -1,0 +1,14 @@
+{
+	"ret": "0",
+	"msg": "ok",
+	"content": {
+		"feJson": {
+            "pro1": 1,
+            "pro2": "test"
+        },
+		"rdJson": {
+            "pro1": "1",
+            "pro2": "test"
+        }
+	}
+}
