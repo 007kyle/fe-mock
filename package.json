@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/zhoushengmufc/fe-mock#readme",
   "dependencies": {
+    "body-parser": "^1.17.1",
     "nan": "^2.5.1",
     "nodemon": "1.11.0"
   },
