@@ -1,4 +1,5 @@
 1.npm install fe-mock
+
 2.在业务项目启动文件添加：
 var femock = require(‘fe-mock’);femock();
 webpackDevServerConfig.proxy = {
