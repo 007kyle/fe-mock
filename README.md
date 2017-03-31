@@ -1,6 +1,8 @@
 1.npm install fe-mock
+
 2.在业务项目启动文件添加：
 var femock = require(‘fe-mock’);
+
 femock();
 webpackDevServerConfig.proxy = {
     '/api/**': {
@@ -9,15 +11,17 @@ webpackDevServerConfig.proxy = {
         // target: '10.95.27.39:8098'
     },
 以上为webpack proxy配置，其他服务也是配置代理到femock.conf.json设置的端口上
+
 3.添加femock.conf.json主配置文件 ，创建mock_conf/*.conf 每个接口创建配置文件
+
 4.npm start 运行业务程序可查看到mock数据服务器运行效果
 
 femock.conf.json 示例：
 {
-   "confDir": "mock_conf/",
-   "dataDir": "mock/",
-   "port": "9998",
-   "exceptionStatus": {
+    "confDir": "mock_conf/",
+    "dataDir": "mock/",
+    "port": "9998",
+    "exceptionStatus": {
       "404": {
          "ret": 404,
          "retMsg": "url is not found!"
