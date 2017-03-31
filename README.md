@@ -9,7 +9,8 @@ webpackDevServerConfig.proxy = {
         // 默认是自带的mock server， 可自行修改
         target: 'http://localhost:9998'
         // target: '10.95.27.39:8098'
-    },
+    }}
+    
 以上为webpack proxy配置，其他服务也是配置代理到femock.conf.json设置的端口上
 
 3.添加femock.conf.json主配置文件 ，创建mock_conf/*.conf 每个接口创建配置文件
