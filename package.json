@@ -27,7 +27,8 @@
     "body-parser": "^1.17.1",
     "nan": "^2.5.1",
     "nodemon": "1.11.0",
-    "randomjson": "^1.0.0-beta6"
+    "randomjson": "^1.0.0-beta6",
+    "urllib-sync": "latest"
   },
   "gyp-file": true,
   "directories": {
