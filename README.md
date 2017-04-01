@@ -1,5 +1,5 @@
-FE-MOCK — 前端模拟数据服务
-======
+FE-MOCK — Front-end data simulation service
+------
 ### 1.Install the server
       npm install fe-mock
 
@@ -20,36 +20,36 @@ You can use any proxy service as long as the configuration is configured into th
 femock.conf.json example：
 
         {
-        "confDir": "mock_conf/",
-        "dataDir": "mock/",
-        "port": "9998",
-        "exceptionStatus": {
-            "404": {
-                "ret": 404,
-                "retMsg": "url is not found!"
-            },
-            "500": {
-                "ret": 500,
-                "retMsg": "request is error!"
+            "confDir": "mock_conf/",
+            "dataDir": "mock/",
+            "port": "9998",
+            "exceptionStatus": {
+                  "404": {
+                        "ret": 404,
+                        "retMsg": "url is not found!"
+                  },
+                  "500": {
+                        "ret": 500,
+                        "retMsg": "request is error!"
+                  }
             }
-        }
         }
 
 business.conf example：
 
         {
-        "des": "interface of the business",
-        "api": "/api/project",
-        "type": "get",
-        "defaultJson": "project.json",
-        "ifArr": [
+            "des": "interface of the business",
+            "api": "/api/project",
+            "type": "get",
+            "defaultJson": "project.json",
+            "ifArr": [
                 {
                 "ifState": "page==2",
                 "returnJson": "project2.json"
                 }
-        ],
-        "timeout": 0
+            ],
+            "timeout": 0
         }
 
 ### 4.Start your project,visit your project or visit the mock server.
-          like: npm start
+          npm start
