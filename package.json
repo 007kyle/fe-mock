@@ -1,6 +1,6 @@
 {
   "name": "fe-mock",
-  "version": "0.0.1-beta13",
+  "version": "0.0.2-beta1",
   "description": "fe mock",
   "main": "./lib",
   "scripts": {},
