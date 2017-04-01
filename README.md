@@ -60,15 +60,12 @@ business.conf 例：
 
 > ### femock.conf.json
 > > confDir             接口配置文件所在目录
-> > 
 > >                    The directory where the interface configuration file is located
 > > 
 > > dataDir             本地数据文件目录，全使用http网络数据可不填
-> 
 > >                    Local data file directory,ignore this if you get data from internet
 > > 
 > > port                模拟数据服务启动端口
-> 
 > >                     Analog data service startup port
 > > 
 > > exceptionStatus     设置异常状态时返回的数据
