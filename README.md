@@ -73,33 +73,19 @@ business.conf 例：
 > >                     The data returned when the exception status is set
 
 > ### business.conf
-> > des                 接口描述
-> 
-> >                     Interface description
+> > des                 接口描述/Interface description
 > > 
-> > api                 访问接口路由地址
-> 
-> >                     Access the interface routing address
+> > api                 访问接口路由地址/Access the interface routing address
 > > 
-> > type                路由请求类型
-> 
-> >                     Route request type
+> > type                路由请求类型/Route request type
 > > 
-> > defaultJson         默认接口数据
-> 
-> >                     default data
+> > defaultJson         默认接口数据/default data
 > > 
-> > ifArr               条件表达式返回数据，选填
-> 
-> >                     Conditional expression returns data,Optional
+> > ifArr               条件表达式返回数据，选填/Conditional expression returns data,Optional
 > > 
-> > httpCode            异常状态码，选填
-> 
-> >                     Http status code,Optional
+> > httpCode            异常状态码，选填/Http status code,Optional
 > > 
-> > timeout             延迟返回，单位：毫秒，为负数时会请求中断
-> 
-> >                     Delayed return in milliseconds,a request is interrupted when it is negative
+> > timeout             延迟返回，单位：毫秒，为负数时会请求中断/Delayed return in milliseconds,a request is interrupted when it is negative
 
 FE-MOCK — Front-end data simulation service
 ======
